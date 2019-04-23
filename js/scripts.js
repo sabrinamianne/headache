@@ -12,7 +12,7 @@ $(document).ready(function() {
   $("#quote").show();
   }
 
-  if ( a === b && b !== c || b === c && b !== a || a === c && a !== b) {
+  if ( a === b && a+b>c || b === c && b+c>a || a === c && a+c>b) {
   $("#rate").empty().append("This is a Isosceles");
   $("#quote").show();
   }
